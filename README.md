@@ -1,1 +1,20 @@
-Project Proposal: Optimization of Gross Floor Area (GFA) and Residential Unit MixCore Idea:The objective is to analyze a specific development land plot to determine the maximum Gross Floor Area (GFA) (known in Bulgaria as РЗП) and the optimal distribution of apartment types within a future residential building.1. Area Calculation of an Irregular Plot via Definite Integrals:To calculate the area of a plot with non-linear boundaries, I will use a polynomial curve to model the irregular side of the parcel. The area under the curve will be derived using a definite integral.2. Determining Maximum GFA based on Zoning Parameters:I will calculate the maximum GFA using the Intensity Coefficient (Kint) – for example, $Kint = 2.0$ – using realistic numerical data.3. Optimization of Unit Mix (One-, Two-, and Three-bedroom Apartments):The total GFA will be distributed among three types of apartments. I will seek all possible combinations that satisfy specific constraints (total area limits and minimum required units of each type). This will be approached through Combinatorial Enumeration or Linear Programming.Note: I am referencing "Exercise: Calculus Problem 4: Integrals and Area" and considering the use of the Jacobian determinant for coordinate transformation (integrating CAD/CSV data or site plan images).4. Data Visualization:The final results will include:A geometric plot of the land parcel.A histogram showing the distribution of possible apartment combinations.A comprehensive calculation table.Mathematical Concepts Applied:Calculus: Definite integrals for area calculation under a curve.Linear Algebra: Systems of linear equations for GFA constraints and boundaries.Combinatorics & Optimization: Finding valid combinations of units within a finite set of constraints.Scientific Method: Formulating a hypothesis, testing/verification, and drawing a conclusion.
+Project Proposal: Optimization of Gross Floor Area (GFA) and Residential Unit Mix
+Core Idea:
+The objective is to analyze a specific development land plot to determine the maximum Gross Floor Area (GFA) (known in Bulgaria as РЗП) and the optimal distribution of apartment types within a future residential building.
+1. Area Calculation of an Irregular Plot via Definite Integrals:
+To calculate the area of a plot with non-linear boundaries, I will use a polynomial curve to model the irregular side of the parcel. The area under the curve will be derived using a definite integral.
+2. Determining Maximum GFA based on Zoning Parameters:
+I will calculate the maximum GFA using the Intensity Coefficient (Kint) – for example, $Kint = 2.0$ – using realistic numerical data.
+3. Optimization of Unit Mix (One-, Two-, and Three-bedroom Apartments):
+The total GFA will be distributed among three types of apartments. I will seek all possible combinations that satisfy specific constraints (total area limits and minimum required units of each type). This will be approached through Combinatorial Enumeration or Linear Programming.
+•	Note: I am referencing "Exercise: Calculus Problem 4: Integrals and Area" and considering the use of the Jacobian determinant for coordinate transformation (integrating CAD/CSV data or site plan images).
+4. Data Visualization:
+The final results will include:
+•	A geometric plot of the land parcel.
+•	A histogram showing the distribution of possible apartment combinations.
+•	A comprehensive calculation table.
+Mathematical Concepts Applied:
+•	Calculus: Definite integrals for area calculation under a curve.
+•	Linear Algebra: Systems of linear equations for GFA constraints and boundaries.
+•	Combinatorics & Optimization: Finding valid combinations of units within a finite set of constraints.
+•	Scientific Method: Formulating a hypothesis, testing/verification, and drawing a conclusion.
